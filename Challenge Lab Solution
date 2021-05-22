@@ -65,3 +65,6 @@ Task 7: Deploy the Frontend microservice
 
 kubectl create deployment frontend --image=gcr.io/${GOOGLE_CLOUD_PROJECT}/frontend:1.0.0
 
+kubectl expose deployment frontend --type=LoadBalancer --port 80 --target-port 8080
+
+
