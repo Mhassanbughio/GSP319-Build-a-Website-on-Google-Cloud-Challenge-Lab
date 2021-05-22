@@ -13,6 +13,11 @@ npm start
 gcloud services enable cloudbuild.googleapis.com
 gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/fancytest:1.0.0 .
 
+####################################################################################################################################################
+
+Task 2: Create a kubernetes cluster and deploy the application
+
+
 
 
 
