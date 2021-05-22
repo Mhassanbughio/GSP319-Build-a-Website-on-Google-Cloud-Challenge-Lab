@@ -49,3 +49,6 @@ kubectl expose deployment products --type=LoadBalancer --port 80 --target-port 8
 
 Task 5: Configure the Frontend microservice
 
+cd ~/monolith-to-microservices/react-app
+nano .env
+
