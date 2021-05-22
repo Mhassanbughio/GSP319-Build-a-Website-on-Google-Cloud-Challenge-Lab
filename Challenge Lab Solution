@@ -32,4 +32,6 @@ Task 3: Create a containerized version of your Microservices
 cd ~/monolith-to-microservices/microservices/src/orders
 gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/orders:1.0.0 .
 
+cd ~/monolith-to-microservices/microservices/src/products
+gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/products:1.0.0 .
 
