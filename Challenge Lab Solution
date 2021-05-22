@@ -42,4 +42,6 @@ Task 4: Deploy the new microservices
 kubectl create deployment orders --image=gcr.io/${GOOGLE_CLOUD_PROJECT}/orders:1.0.0
 kubectl expose deployment orders --type=LoadBalancer --port 80 --target-port 8081
 
+kubectl create deployment products --image=gcr.io/${GOOGLE_CLOUD_PROJECT}/products:1.0.0
+kubectl expose deployment products --type=LoadBalancer --port 80 --target-port 8082
 
