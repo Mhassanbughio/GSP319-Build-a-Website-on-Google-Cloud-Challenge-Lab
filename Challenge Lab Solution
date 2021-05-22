@@ -52,3 +52,7 @@ Task 5: Configure the Frontend microservice
 cd ~/monolith-to-microservices/react-app
 nano .env
 
+###################################################################################################################################################
+
+Task 6: Create a containerized version of the Frontend microservice
+
