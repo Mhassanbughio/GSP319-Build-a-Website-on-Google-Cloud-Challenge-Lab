@@ -26,3 +26,5 @@ kubectl create deployment fancytest --image=gcr.io/${GOOGLE_CLOUD_PROJECT}/fancy
 kubectl expose deployment fancytest --type=LoadBalancer --port 80 --target-port 8080
 
 ####################################################################################################################################################
+
+Task 3: Create a containerized version of your Microservices
