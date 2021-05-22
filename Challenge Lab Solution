@@ -17,7 +17,9 @@ gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/fancytest:1.0.0 .
 
 Task 2: Create a kubernetes cluster and deploy the application
 
-
+gcloud config set compute/zone us-central1-a
+gcloud services enable container.googleapis.com
+gcloud container clusters create fancy-cluster --num-nodes 3
 
 
 
